@@ -1,15 +1,15 @@
-name: Refresh XHZB Tokens
+name: Sync Data
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # 每 30 分钟(UTC,即北京时间 8/38 分)
-  workflow_dispatch:          # 支持手动触发
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  refresh:
+  sync:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -21,25 +21,17 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run refresh script
+      - name: Run sync
         env:
-          XHZB_TOKEN: ${{ secrets.XHZB_TOKEN }}
+          API_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
-          python3 xhzb_refresh.py
-          echo "=== 生成的 m3u ==="
-          head -5 xhzb_intl.m3u
-          echo "..."
-          echo "台数: $(grep -c '#EXTINF' xhzb_intl.m3u)"
-
-      - name: Commit and push
-        run: |
+          python3 sync.py
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add xhzb_intl.m3u README.md
           if git diff --cached --quiet; then
-            echo "无变化, 跳过 commit"
+            echo "no change"
           else
-            git commit -m "refresh xhzb intl tokens $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git commit -m "sync $(date -u +'%Y-%m-%d %H:%M') UTC"
             git push origin main
-            echo "✅ 已推送"
           fi
