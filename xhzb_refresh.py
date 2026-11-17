@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""星火国际 145 台 token 每30分钟刷新 (GitHub Actions 版)
-在 GitHub Actions 服务器上运行, 不依赖本地电脑:
-- 调星火 tvbus_api/open 换新 token
-- 生成 xhzb_intl.m3u
-- commit 回 GitHub 仓库 (workflow 自动 commit)
+"""145 intl channels token refresh (GitHub Actions)
+runs on GitHub Actions:
+- call open API to renew tokens
+- generate xhzb_intl.m3u
+- commit back to repo (workflow auto commit)
 """
 import json, subprocess, time, sys, os, urllib.request
 
-# 星火 API token (来自 App 逆向, 存在 GitHub Actions secret, 不写入代码)
+# API token (from Actions secret, never in code)
 XHZB_TOKEN = os.environ.get("XHZB_TOKEN", "")
 if not XHZB_TOKEN:
     print("❌ 缺少 XHZB_TOKEN secret, 退出", flush=True)
@@ -195,7 +195,7 @@ def main():
 
     lines = ["#EXTM3U"]
     for cid, title, u in ok:
-        lines.append(f'#EXTINF:-1 group-title="星火国际",{title}')
+        lines.append(f'#EXTINF:-1 group-title="Live",{title}')
         lines.append(u)
     content = "\n".join(lines) + "\n"
     with open("xhzb_intl.m3u", "w", encoding="utf-8") as f:
