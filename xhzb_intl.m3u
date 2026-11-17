@@ -1,4 +1,18 @@
 #EXTM3U
+#EXTINF:-1 group-title="Live",FGM_gold電影
+http://pull.live-plus.jlntv.cn/live/iBAjWpWCi41UO3Huv8fFmO6VirtRBU.flv
+#EXTINF:-1 group-title="Live",經典卡通
+http://pull.live-plus.jlntv.cn/live/pb86UQ2WdLjVX9ijPx7zhwExDlQSu9.flv
+#EXTINF:-1 group-title="Live",精選動漫
+http://pull.live-plus.jlntv.cn/live/F3lM6MdrBCCLh1NhvKDcN2DcG8LzhJ.flv
+#EXTINF:-1 group-title="Live",幸福空間居家
+http://pull.live-plus.jlntv.cn/live/0pL5NDC9wJJkYRKS8ocAUUCgB5XqD5.flv
+#EXTINF:-1 group-title="Live",生命電視
+http://cqlive.dbkan.com/live/TvRJJUWtrQOxNAa4wEzV7Bwfqw6lL4.flv
+#EXTINF:-1 group-title="Live",哆啦A夢
+http://pull.live-plus.jlntv.cn/live/q46UuxGp0U8KocXG8BayvgqORS6Gmq.flv
+#EXTINF:-1 group-title="Live",經典迪士尼
+http://pull.live-plus.jlntv.cn/live/9mG1JB2Fkd3iGlj3alqEiL2VT5U7tx.flv
 #EXTINF:-1 group-title="Live",CNN
 http://pull-mpeg-hs-cny-f5.douyincdn.com/live/I4UaeJ6X7FbWcafL8FqxMAFbI5C265.flv
 #EXTINF:-1 group-title="Live",LoveNature
