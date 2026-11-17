@@ -5,6 +5,10 @@ http://50.7.233.114:8278/hbosignature_twn/playlist.m3u8
 http://50.7.233.114:8278/hbohd_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",HBO_HITS
 http://50.7.233.114:8278/hbohits_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVBS
+http://50.7.233.114:8278/tvbs/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVBS欢乐台
+http://50.7.233.114:8278/tvbshuanle_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",三立综合台
 http://50.7.233.114:8278/sanlizhonghe/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",东森戏剧
@@ -17,6 +21,8 @@ http://50.7.233.114:8278/ctiasia_twn/playlist.m3u8
 http://50.7.233.114:8278/ctient/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",中天综合
 http://50.7.233.114:8278/ctizhonghe/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",中视
+http://50.7.233.114:8278/zhongshihd_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",八大戏剧台
 http://50.7.233.114:8278/badadrama/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",八大第一台
@@ -29,6 +35,10 @@ http://50.7.233.114:8278/ctv18_twn/playlist.m3u8
 http://50.7.233.114:8278/ctv2_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",华视
 http://50.7.233.114:8278/ctshd_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",台视
+http://50.7.233.114:8278/ttv_taiwan/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",台视综合台
+http://50.7.233.114:8278/ttvzhonghe/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",大爱1台
 http://50.7.233.114:8278/daai_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",民视
@@ -49,6 +59,8 @@ http://50.7.233.114:8278/rhk32_twn/playlist.m3u8
 http://50.7.233.114:8278/Tvbasia/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",TVB明珠台
 http://50.7.233.114:8278/pearl_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",ViuTV
+http://50.7.233.114:8278/viu1_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",iNews 互動新聞台
 http://50.7.233.114:8278/inews_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",凤凰卫视
@@ -259,10 +271,14 @@ http://50.7.233.114:8278/Skynews/playlist.m3u8
 http://50.7.233.114:8278/SetOne/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",Sony Yay Tamil
 http://50.7.233.114:8278/sonyyaytam_raj/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Starmaa HD
+http://50.7.233.114:8278/starmaa_raj/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",Starplus HD
 http://50.7.233.114:8278/Starplushd/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",Sun TV HD
 http://50.7.233.114:8278/Suntv/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Sunnah
+http://50.7.233.114:8278/sunnah_mido/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",Suria
 http://50.7.233.114:8278/Mewatch_Suria/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",Suria
@@ -331,6 +347,8 @@ http://50.7.233.114:8278/Zeebusiness/playlist.m3u8
 http://50.7.233.114:8278/Zeecinemahd/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",Zee Tamil
 http://50.7.233.114:8278/Zeetamil/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",ettvmovie
+http://50.7.233.114:8278/ettvmovie/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",iNews TV
 http://50.7.233.114:8278/Inewstv/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",tvN Movie
@@ -397,6 +415,22 @@ http://50.7.233.114:8278/Rugbypasstv/playlist.m3u8
 http://50.7.233.114:8278/go_spotv/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",SPOTV 2
 http://50.7.233.114:8278/go_spotv2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports Cricket
+http://50.7.233.114:8278/tiankongcricket/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports F1
+http://50.7.233.114:8278/tiankongf1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports Golf
+http://50.7.233.114:8278/tiankonggolf/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports Main Event
+http://50.7.233.114:8278/tiankongmain/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports Mix
+http://50.7.233.114:8278/tiankongmix/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports Racing
+http://50.7.233.114:8278/tiankongracing/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TNT Sports 2
+http://50.7.233.114:8278/tntsport2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TNT Sports 4
+http://50.7.233.114:8278/tntsport4/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",TVRi National
 http://50.7.233.114:8278/TVRI/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",WWE
@@ -417,12 +451,16 @@ http://50.7.233.114:8278/guangdongweishi_twn/playlist.m3u8
 http://50.7.233.114:8278/guangxi/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",江苏卫视
 http://50.7.233.114:8278/jiangsu_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",浙江卫视
+http://50.7.233.114:8278/zhejiang_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",深圳卫视
 http://50.7.233.114:8278/shenzhen/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",湖北卫视
 http://50.7.233.114:8278/hubei/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",湖南卫视
 http://50.7.233.114:8278/hunan_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",珠江台
+http://50.7.233.114:8278/zhujiang/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",福建东南卫视
 http://50.7.233.114:8278/fujian/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",CCTV-5+
