@@ -170,6 +170,11 @@ def main():
             req = urllib.request.Request(API, method="POST")
             req.add_header("Authorization", "Bearer " + XHZB_TOKEN)
             req.add_header("Content-Type", "application/json")
+            req.add_header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+            req.add_header("Referer", "https://www.xhzb.tw/")
+            req.add_header("Origin", "https://www.xhzb.tw")
+            req.add_header("Accept", "application/json, text/plain, */*")
+            req.add_header("Accept-Language", "zh-CN,zh;q=0.9")
             body = json.dumps({"channel_id": int(cid)}).encode()
             with urllib.request.urlopen(req, body, timeout=10) as r:
                 d = json.loads(r.read().decode("utf-8", "ignore"))
