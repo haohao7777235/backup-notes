@@ -8,7 +8,7 @@ API_TOKEN = os.environ.get("API_TOKEN", "")
 if not API_TOKEN:
     print("❌ 缺少 API_TOKEN secret, 退出", flush=True)
     sys.exit(1)
-API = "https://www.xhzb.tw/index.php/api/data/sync"
+API = "https://www.xhzb.tw/index.php/api/tvbus_api/open"
 
 # map: 145 台 cid -> title (从 VM xhzb_intl_map.json 导出)
 CHANNELS = [
