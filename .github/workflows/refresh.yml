@@ -2,7 +2,7 @@ name: Refresh XHZB Tokens
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # 每 30 分钟(UTC,即北京时间 8/38 分)
+    - cron: '*/30 * * * *'   # 每 30 分钟(UTC,即北京时间 8/38 分)
   workflow_dispatch:          # 支持手动触发
 
 permissions:
