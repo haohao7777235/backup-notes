@@ -192,8 +192,9 @@ def fetch(cid):
 
 
 def main():
-    # 1. 读当前文件, 保留非 Live 组
+    # 1. 读当前文件, 保留非 Live 组 + 记录 Live 旧 URL (失败时保留)
     keep = []
+    old_live = {}  # title -> url
     if os.path.exists("xhzb_intl.m3u"):
         lines = open("xhzb_intl.m3u", encoding="utf-8").read().splitlines()
         i = 0
@@ -202,7 +203,10 @@ def main():
                 g = re.search(r'group-title="([^"]*)"', lines[i])
                 group = g.group(1) if g else ""
                 if group == "Live":
-                    i += 2  # skip Live EXTINF + URL
+                    title = lines[i].split(",")[-1]
+                    if i + 1 < len(lines):
+                        old_live[title] = lines[i + 1].rstrip("/")
+                    i += 2
                     continue
                 keep.append(lines[i])
                 if i + 1 < len(lines):
@@ -219,6 +223,8 @@ def main():
         u = fetch(e["cid"])
         if u:
             ok.append((e["cid"], e["title"], u))
+        elif e["title"] in old_live:
+            ok.append((e["cid"], e["title"], old_live[e["title"]]))  # 保留旧 URL
         else:
             fail.append(e["title"])
         if (i + 1) % 30 == 0:
