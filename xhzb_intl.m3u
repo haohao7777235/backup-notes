@@ -811,60 +811,210 @@ http://cdn3.indevs.in/stream/live/AEC/
 http://cdn3.indevs.in/stream/live/AOD/
 #EXTINF:-1 group-title="TVATA活源",Aec
 http://cdn3.indevs.in/stream/live/Aec/
+#EXTINF:-1 group-title="TVATA活源",TV Alhijrah
+http://50.7.233.114:8278/Alhijrah/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Al Jazeera
+http://50.7.233.114:8278/Aljazeera/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Animal Planet
+http://50.7.233.114:8278/AnimalPlanet/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Animax
+http://50.7.233.114:8278/Animax/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",ANTV
+http://50.7.233.114:8278/Antv/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",Astro AOD
 http://cdn3.indevs.in/stream/live/Aod/
+#EXTINF:-1 group-title="TVATA活源",AXN
+http://50.7.233.114:8278/Axn/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",BBC Earth
 http://50.7.233.114:8278/Bbcearth/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",BBC News
+http://50.7.233.114:8278/Bbcnews/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Bloomberg
+http://50.7.233.114:8278/Bloomberg/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CGTN
+http://50.7.233.114:8278/CGTN/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",CBeebies
 http://50.7.233.114:8278/Cbeebies/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV4
+http://50.7.233.114:8278/Cctv4/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",天映頻道
+http://50.7.233.114:8278/Celestial/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Channel 5 HD
+http://50.7.233.114:8278/Channel5HD/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Channel 8 HD
+http://50.7.233.114:8278/Channel8HD/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Channel U
+http://50.7.233.114:8278/ChannelU/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",犯罪偵查
 http://50.7.233.114:8278/Ci/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",CinemaWorld
 http://50.7.233.114:8278/Cinemaworld/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CINEMAX
+http://50.7.233.114:8278/Cinemax/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CNBC
+http://50.7.233.114:8278/Cnbc/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CNN
+http://50.7.233.114:8278/Cnn/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Discovery Asia
+http://50.7.233.114:8278/Discoveryasia/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",Discovery HD
 http://50.7.233.114:8278/Discoveryhd/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",DreamWorks
+http://50.7.233.114:8278/Dreamworks/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",DW
+http://50.7.233.114:8278/Dw/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",Eurosport
 http://50.7.233.114:8278/Eurosport/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Food Network
+http://50.7.233.114:8278/Foodnetwork/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",France 24
+http://50.7.233.114:8278/France24/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",GTV嘉萊台
+http://50.7.233.114:8278/Gtv/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HGTV
+http://50.7.233.114:8278/HGTV/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HBO
+http://50.7.233.114:8278/Hbo/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Hbofamily
+http://50.7.233.114:8278/Hbofamily/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HBO Hits HD
+http://50.7.233.114:8278/Hbohitshd/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",HBO Signature
 http://50.7.233.114:8278/Hbosignature/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",History
 http://50.7.233.114:8278/History/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",HITS
 http://50.7.233.114:8278/Hits/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HITS Movies
+http://50.7.233.114:8278/Hitsmovie/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",IQIYI
 http://cdn3.indevs.in/stream/live/IQIYI/
 #EXTINF:-1 group-title="TVATA活源",iQIYI
 http://cdn3.indevs.in/stream/live/Iqiyi/
+#EXTINF:-1 group-title="TVATA活源",KBS
+http://50.7.233.114:8278/KBS/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",KBS1
 http://50.7.233.114:8278/KBS1/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",KBS2
 http://50.7.233.114:8278/KBS2/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",K+
+http://50.7.233.114:8278/Kplus/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",BBC Lifestyle
+http://50.7.233.114:8278/Lifestyle/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",MBC
 http://50.7.233.114:8278/MBC/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Channel 5 (Mewatch)
+http://50.7.233.114:8278/Mewatch_ch5/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Channel 8 (Mewatch)
+http://50.7.233.114:8278/Mewatch_ch8/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",MNC TV
+http://50.7.233.114:8278/Mnctv/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",Nat Geo
 http://50.7.233.114:8278/Natgeo/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Nat Geo Wild
+http://50.7.233.114:8278/Natgeowild/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",NBA
+http://50.7.233.114:8278/Nba/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Nickelodeon
+http://50.7.233.114:8278/Nickelodeon/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Nick Jr
+http://50.7.233.114:8278/Nickjr/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Rock Actions
+http://50.7.233.114:8278/Rockaction/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Showcase
+http://50.7.233.114:8278/Showcase/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Sky News
+http://50.7.233.114:8278/Skynews/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",SPOTV
 http://50.7.233.114:8278/Spotv1/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",SPOTV2
 http://50.7.233.114:8278/Spotv2/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",SUN Music HD
+http://50.7.233.114:8278/Sunmusic/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Suria
+http://50.7.233.114:8278/Suria/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",tvN
+http://50.7.233.114:8278/TVN/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Thrill
+http://50.7.233.114:8278/Thrill/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",TLC
+http://50.7.233.114:8278/Tlc/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Trans TV
+http://50.7.233.114:8278/Transtv/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",TVB娛樂新聞
+http://50.7.233.114:8278/Tvbentertainment/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",TVB Jade
+http://50.7.233.114:8278/Tvbjade/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",TV One
+http://50.7.233.114:8278/Tvone/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Vasantham
+http://50.7.233.114:8278/Vasantham/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Warner TV
+http://50.7.233.114:8278/WarnerTV/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",WION
+http://50.7.233.114:8278/Wion/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",AEC
 http://cdn3.indevs.in/stream/live/aec/
 #EXTINF:-1 group-title="TVATA活源",Astro AOD
 http://cdn3.indevs.in/stream/live/aod/
+#EXTINF:-1 group-title="TVATA活源",北京衛視
+http://50.7.233.114:8278/beijing/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",CCM
 http://cdn3.indevs.in/stream/live/ccm/
+#EXTINF:-1 group-title="TVATA活源",CCTV1
+http://50.7.233.114:8278/cctv1/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV10 HD
+http://50.7.233.114:8278/cctv10hd/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV11
+http://50.7.233.114:8278/cctv11/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV12
+http://50.7.233.114:8278/cctv12/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV13
+http://50.7.233.114:8278/cctv13/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV14
+http://50.7.233.114:8278/cctv14/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV15
+http://50.7.233.114:8278/cctv15/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",CCTV16
 http://50.7.233.114:8278/cctv16/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",CCTV17
 http://50.7.233.114:8278/cctv17/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV2
+http://50.7.233.114:8278/cctv2/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV3
+http://50.7.233.114:8278/cctv3/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV4
+http://50.7.233.114:8278/cctv4/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV5
+http://50.7.233.114:8278/cctv5/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV5+
+http://50.7.233.114:8278/cctv5plus/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV6
+http://50.7.233.114:8278/cctv6/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV7
+http://50.7.233.114:8278/cctv7/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV8 HD
+http://50.7.233.114:8278/cctv8hd/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV9 HD
+http://50.7.233.114:8278/cctv9hd/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CNA
+http://50.7.233.114:8278/cna/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",中天新聞
 http://50.7.233.114:8278/ctinews/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",ESPN
 http://50.7.233.114:8278/espn/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",東森戲劇
+http://50.7.233.114:8278/ettvdrama/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",東森電影
+http://50.7.233.114:8278/ettvmovie/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",東森新聞
 http://50.7.233.114:8278/ettvnews/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",東森洋片台
 http://50.7.233.114:8278/ettvwestern/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",福建海峽衛視
+http://50.7.233.114:8278/fujian/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",廣西國際
+http://50.7.233.114:8278/guangxi/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",HBO Family
 http://50.7.233.114:8278/hbofamily/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",華裔中文台
@@ -891,8 +1041,12 @@ http://50.7.233.114:8278/lovenature/playlist.m3u8
 http://50.7.233.114:8278/pts3/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",SBS
 http://50.7.233.114:8278/sbs/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",深圳國際
+http://50.7.233.114:8278/shenzhen/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",TVB Drama
 http://cdn3.indevs.in/stream/live/tvbc/
+#EXTINF:-1 group-title="TVATA活源",TVBS
+http://50.7.233.114:8278/tvbs/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",TVB星河
 http://cdn3.indevs.in/stream/live/tvbxh/
 #EXTINF:-1 group-title="TVATA活源",TypeD
@@ -903,6 +1057,8 @@ http://50.7.233.114:8278/videolandjapan/playlist.m3u8
 http://50.7.233.114:8278/videolandmovie/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",Warner Bros
 http://50.7.233.114:8278/warnerbros/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",廣東珠江
+http://50.7.233.114:8278/zhujiang/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",HK2003 [38节点]
 http://38.64.72.148:80/hls/modn/list/2003/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",HK2005 [38节点]
