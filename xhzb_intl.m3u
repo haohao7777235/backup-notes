@@ -289,3 +289,793 @@ http://cqlive.dbkan.com/live/XaDS5UwJyZAVtKLlCFu7sSRFpi7zpZ.flv
 http://cqlive.dbkan.com/live/RhuiqGvReZIpaI5LiELOT7gxueEST0.flv
 #EXTINF:-1 group-title="Live",Mezzo Live
 http://cqlive.dbkan.com/live/7qKCdsGquh31eJwLazQYc4S6n0Ug70.flv
+#EXTINF:-1 group-title="台港直连",HBO Signature Taiwan
+http://50.7.233.114:8278/hbosignature_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",HBO_HD
+http://50.7.233.114:8278/hbohd_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",HBO_HITS
+http://50.7.233.114:8278/hbohits_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVBS
+http://50.7.233.114:8278/tvbs/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVBS欢乐台
+http://50.7.233.114:8278/tvbshuanle_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",三立综合台
+http://50.7.233.114:8278/sanlizhonghe/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",东森戏剧
+http://50.7.233.114:8278/ettvdrama/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",东森综合
+http://50.7.233.114:8278/ettvzhonghe/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",中天亚洲台
+http://50.7.233.114:8278/ctiasia_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",中天娱乐
+http://50.7.233.114:8278/ctient/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",中天综合
+http://50.7.233.114:8278/ctizhonghe/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",中视
+http://50.7.233.114:8278/zhongshihd_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",八大戏剧台
+http://50.7.233.114:8278/badadrama/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",八大第一台
+http://50.7.233.114:8278/badafirst/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",八大综合台
+http://50.7.233.114:8278/badazhonghe/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",公视
+http://50.7.233.114:8278/ctv18_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",公视2
+http://50.7.233.114:8278/ctv2_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",华视
+http://50.7.233.114:8278/ctshd_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",台视
+http://50.7.233.114:8278/ttv_taiwan/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",台视综合台
+http://50.7.233.114:8278/ttvzhonghe/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",大爱1台
+http://50.7.233.114:8278/daai_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",民视
+http://50.7.233.114:8278/ftvhd_taiwan/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",民视台湾台
+http://50.7.233.114:8278/ftvtaiwan_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",J 2
+http://50.7.233.114:8278/j2_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Now Sports 616
+http://50.7.233.114:8278/Anowsports1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Now Sports 617
+http://50.7.233.114:8278/Anowsports2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",RHK 31
+http://50.7.233.114:8278/rhk31_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",RHK 32
+http://50.7.233.114:8278/rhk32_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVB Asia
+http://50.7.233.114:8278/Tvbasia/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVB明珠台
+http://50.7.233.114:8278/pearl_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",ViuTV
+http://50.7.233.114:8278/viu1_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",iNews 互動新聞台
+http://50.7.233.114:8278/inews_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",凤凰卫视
+http://50.7.233.114:8278/phoenixtv_hd/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",凤凰香港
+http://50.7.233.114:8278/hkphoenix_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",无线财经资讯台
+http://50.7.233.114:8278/hoycaijing_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",翡翠台
+http://50.7.233.114:8278/jade_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",鳳凰資訊
+http://50.7.233.114:8278/phoenixinfo_hd/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",8TV
+http://50.7.233.114:8278/TV8/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",AEC
+http://50.7.233.114:8278/AEC/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",AOD
+http://50.7.233.114:8278/Aodhd/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Adithya
+http://50.7.233.114:8278/Adithya/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Al-Hijrah
+http://50.7.233.114:8278/Alhijrah/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Al-Hijrah
+http://50.7.233.114:8278/Alhijrah_backup/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Al_Jazeera
+http://50.7.233.114:8278/Aljazeera/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",AnTV
+http://50.7.233.114:8278/Antv/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Animal_Planet
+http://50.7.233.114:8278/AnimalPlanet/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Animax
+http://50.7.233.114:8278/Animax/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Asia Food Network
+http://50.7.233.114:8278/Afc/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro LOL
+http://50.7.233.114:8278/Astro_lol/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro MTV
+http://50.7.233.114:8278/AstroMTV/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro QJ
+http://50.7.233.114:8278/Quanjia/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Sunlife
+http://50.7.233.114:8278/Sunlife/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Sunmusic
+http://50.7.233.114:8278/Sunmusic/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Vaanavil
+http://50.7.233.114:8278/Vaanavil/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astrol Kplus
+http://50.7.233.114:8278/Kplus/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Aura
+http://50.7.233.114:8278/Aura/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Awani
+http://50.7.233.114:8278/Awani/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Awesome TV
+http://50.7.233.114:8278/Dsangat/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Axn HD
+http://50.7.233.114:8278/Axn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",BBC World News
+http://50.7.233.114:8278/Bbcnews/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Berita Satu
+http://50.7.233.114:8278/BeritaSatu_eko/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Bernama
+http://50.7.233.114:8278/Bernama/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Bloomberg TV
+http://50.7.233.114:8278/Bloomberg/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Bollyone
+http://50.7.233.114:8278/Bollyone/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Boo
+http://50.7.233.114:8278/Boo/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CNA
+http://50.7.233.114:8278/cna/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CNBC
+http://50.7.233.114:8278/Cnbc/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CNN
+http://50.7.233.114:8278/Cnn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CNN
+http://50.7.233.114:8278/Mewatch_cna/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CNN
+http://50.7.233.114:8278/cnn_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Cartoon Network
+http://50.7.233.114:8278/Cn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Celestial Classic
+http://50.7.233.114:8278/Celestial2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Celestial Movies HD
+http://50.7.233.114:8278/Celestial/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Ceria
+http://50.7.233.114:8278/Ceria/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Channel 5
+http://50.7.233.114:8278/Channel5HD/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Channel 5
+http://50.7.233.114:8278/Mewatch_ch5/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Channel 8
+http://50.7.233.114:8278/Channel8HD/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Channel 8
+http://50.7.233.114:8278/Mewatch_ch8/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Channel U
+http://50.7.233.114:8278/ChannelU/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Channel U
+http://50.7.233.114:8278/Mewatch_chU/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Cinemax
+http://50.7.233.114:8278/Cinemax/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Citra
+http://50.7.233.114:8278/Citra/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",DW
+http://50.7.233.114:8278/Dw/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Daai TV
+http://50.7.233.114:8278/DaaiTV/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Discovery Asia
+http://50.7.233.114:8278/Discoveryasia/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Discovery Kids Tamil
+http://50.7.233.114:8278/discoverykidtamil_raj/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Dmax
+http://50.7.233.114:8278/Dmax/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Dreamworks
+http://50.7.233.114:8278/Dreamworks/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",EWTN
+http://50.7.233.114:8278/Ewtn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Entertain
+http://50.7.233.114:8278/Entertain/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Foodnetwork Hd
+http://50.7.233.114:8278/Foodnetwork/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",France 24
+http://50.7.233.114:8278/France24/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",GTV
+http://50.7.233.114:8278/Gtv/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",HBO Family
+http://50.7.233.114:8278/Hbofamily/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",HBO HD
+http://50.7.233.114:8278/Hbo/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",HBO Hits
+http://50.7.233.114:8278/Hbohitshd/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",HGTV
+http://50.7.233.114:8278/HGTV/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Hits Movie
+http://50.7.233.114:8278/Hitsmovie/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Indosiar HD
+http://50.7.233.114:8278/Inddosiar/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",JTV
+http://50.7.233.114:8278/JTV_eko/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Jak TV
+http://50.7.233.114:8278/JakTV/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",KBS World
+http://50.7.233.114:8278/KBS/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Kompass TV
+http://50.7.233.114:8278/Kompass/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Lifestyle&amp;Fashion
+http://50.7.233.114:8278/Lifestyle/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",MNC TV
+http://50.7.233.114:8278/Mnctv/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Metro TV
+http://50.7.233.114:8278/metrotv_eko/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Music TV
+http://50.7.233.114:8278/MusicTV/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Muslim TV
+http://50.7.233.114:8278/MuslimTV/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",NTV7
+http://50.7.233.114:8278/NTV7/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",NatGeo_Wild HD
+http://50.7.233.114:8278/Natgeowild/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Natgeo Wild Tamil
+http://50.7.233.114:8278/natgeowildtamil_raj/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Net TV
+http://50.7.233.114:8278/NetTV/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Nick Jr
+http://50.7.233.114:8278/Nickjr/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Nickelodeon
+http://50.7.233.114:8278/Nickelodeon/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Oasis
+http://50.7.233.114:8278/Oasis/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",One
+http://50.7.233.114:8278/One/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Picture HD
+http://50.7.233.114:8278/Npicture/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Prima
+http://50.7.233.114:8278/AAprima/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Prima
+http://50.7.233.114:8278/Prima/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Quran
+http://50.7.233.114:8278/quran_mido/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",RCTI
+http://50.7.233.114:8278/Rcti/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",RTM Asean
+http://50.7.233.114:8278/Rtmasean/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",RTV
+http://50.7.233.114:8278/Rtv/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Rania
+http://50.7.233.114:8278/Rania/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Ria
+http://50.7.233.114:8278/Ria-0/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Ria-3
+http://50.7.233.114:8278/Ria_backup/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Rock Actions
+http://50.7.233.114:8278/Rockaction/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Rock Entertainment
+http://50.7.233.114:8278/Rockentertain/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",SCM
+http://50.7.233.114:8278/Weishimovie/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",SCTV
+http://50.7.233.114:8278/SCTV/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Sensasi
+http://50.7.233.114:8278/Sensasi/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Showcase
+http://50.7.233.114:8278/Showcase/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Siar
+http://50.7.233.114:8278/Siar/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skynews
+http://50.7.233.114:8278/Skynews/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Sony HD
+http://50.7.233.114:8278/SetOne/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Sony Yay Tamil
+http://50.7.233.114:8278/sonyyaytam_raj/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Starmaa HD
+http://50.7.233.114:8278/starmaa_raj/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Starplus HD
+http://50.7.233.114:8278/Starplushd/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Sun TV HD
+http://50.7.233.114:8278/Suntv/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Sunnah
+http://50.7.233.114:8278/sunnah_mido/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Suria
+http://50.7.233.114:8278/Mewatch_Suria/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Suria
+http://50.7.233.114:8278/Suria/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TLC
+http://50.7.233.114:8278/Tlc/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TV1
+http://50.7.233.114:8278/TV1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TV1
+http://50.7.233.114:8278/TV1_backup/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TV2
+http://50.7.233.114:8278/TV2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TV3
+http://50.7.233.114:8278/TV3/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TV3
+http://50.7.233.114:8278/TV3_1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TV3
+http://50.7.233.114:8278/TV3_backup/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TV5
+http://50.7.233.114:8278/TV5/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TV9
+http://50.7.233.114:8278/TV9/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVB Classic
+http://50.7.233.114:8278/Tvbclassic/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVB Entertainment
+http://50.7.233.114:8278/Tvbentertainment/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVB Jade
+http://50.7.233.114:8278/Tvbjade/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVB 星河台 Xing He
+http://50.7.233.114:8278/Xinhe/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVMU
+http://50.7.233.114:8278/TVMU_eko/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Tawaf TV
+http://50.7.233.114:8278/TawafTV/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Thangathirai
+http://50.7.233.114:8278/Thangathirai/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Thrill
+http://50.7.233.114:8278/Thrill/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Trans 7
+http://50.7.233.114:8278/Trans7_eko/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Transtv
+http://50.7.233.114:8278/Transtv/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TvN
+http://50.7.233.114:8278/TVN/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Tvone
+http://50.7.233.114:8278/Tvone/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Vasantham
+http://50.7.233.114:8278/Mewatch_Vasantham/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Vasantham
+http://50.7.233.114:8278/Vasantham/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Vellithirai
+http://50.7.233.114:8278/Vellithirai/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Vinmeen
+http://50.7.233.114:8278/Vinmeen/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Vision Prime
+http://50.7.233.114:8278/VisionPrime/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",WION
+http://50.7.233.114:8278/Wion/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Warner TV
+http://50.7.233.114:8278/WarnerTV/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Zee Action
+http://50.7.233.114:8278/Zeeaction/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Zee Business
+http://50.7.233.114:8278/Zeebusiness/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Zee Cinema HD
+http://50.7.233.114:8278/Zeecinemahd/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Zee Tamil
+http://50.7.233.114:8278/Zeetamil/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",ettvmovie
+http://50.7.233.114:8278/ettvmovie/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",iNews TV
+http://50.7.233.114:8278/Inewstv/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",tvN Movie
+http://50.7.233.114:8278/Tvnmovie/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",华丽台 HD (Wah Lai Toi)
+http://50.7.233.114:8278/Wlt/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",天映頻道
+http://50.7.233.114:8278/Celestialindo/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",欢喜台 HD(Hua Hee Tai)
+http://50.7.233.114:8278/Huahee/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",爱奇艺 iQiyi
+http://50.7.233.114:8278/Qiyi/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Arena
+http://50.7.233.114:8278/Arena/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Arena 2
+http://50.7.233.114:8278/Arena2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Arena Bola 1
+http://50.7.233.114:8278/Bolaarena1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Badminton
+http://50.7.233.114:8278/go_badminton1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Badminton 2
+http://50.7.233.114:8278/go_badminton2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Beinsports 1
+http://50.7.233.114:8278/Astrobein1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Beinsports 2
+http://50.7.233.114:8278/Astrobein2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Beinsports 3
+http://50.7.233.114:8278/Astrobein3/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Cricket
+http://50.7.233.114:8278/Acricket/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Football
+http://50.7.233.114:8278/Assp4/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Football
+http://50.7.233.114:8278/go_assp4/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Golf
+http://50.7.233.114:8278/Agolf/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro PL 1
+http://50.7.233.114:8278/Assp1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro PL 1
+http://50.7.233.114:8278/go_assp1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro PL 1
+http://50.7.233.114:8278/go_assp1x/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro PL 2
+http://50.7.233.114:8278/go_assp2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro Sports Plus
+http://50.7.233.114:8278/go_sportsplus/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Astro W-Sports
+http://50.7.233.114:8278/go_assp5/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",DAZN 1
+http://50.7.233.114:8278/dazn1_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Elta体育1台
+http://50.7.233.114:8278/eltasport1_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Elta體育2台
+http://50.7.233.114:8278/eltasport2_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Elta體育3台
+http://50.7.233.114:8278/eltasport3_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",NBA TV
+http://50.7.233.114:8278/Nba/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",RTM Sports HD
+http://50.7.233.114:8278/Rtmsport/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Rugby Pass TV
+http://50.7.233.114:8278/Rugbypasstv/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",SPOTV 1
+http://50.7.233.114:8278/go_spotv/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",SPOTV 2
+http://50.7.233.114:8278/go_spotv2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports Cricket
+http://50.7.233.114:8278/tiankongcricket/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports F1
+http://50.7.233.114:8278/tiankongf1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports Golf
+http://50.7.233.114:8278/tiankonggolf/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports Main Event
+http://50.7.233.114:8278/tiankongmain/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports Mix
+http://50.7.233.114:8278/tiankongmix/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Skysports Racing
+http://50.7.233.114:8278/tiankongracing/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TNT Sports 2
+http://50.7.233.114:8278/tntsport2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TNT Sports 4
+http://50.7.233.114:8278/tntsport4/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",TVRi National
+http://50.7.233.114:8278/TVRI/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",WWE
+http://50.7.233.114:8278/Wwe/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",博斯网球 HD
+http://50.7.233.114:8278/bositennis_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",博斯高球2 HD
+http://50.7.233.114:8278/bosigolf2_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",东方卫视
+http://50.7.233.114:8278/dongfangweishi_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",北京卫视
+http://50.7.233.114:8278/beijing/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",四川卫视
+http://50.7.233.114:8278/sichuan_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",广东卫视
+http://50.7.233.114:8278/guangdongweishi_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",广西卫视
+http://50.7.233.114:8278/guangxi/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",江苏卫视
+http://50.7.233.114:8278/jiangsu_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",浙江卫视
+http://50.7.233.114:8278/zhejiang_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",深圳卫视
+http://50.7.233.114:8278/shenzhen/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",湖北卫视
+http://50.7.233.114:8278/hubei/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",湖南卫视
+http://50.7.233.114:8278/hunan_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",珠江台
+http://50.7.233.114:8278/zhujiang/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",福建东南卫视
+http://50.7.233.114:8278/fujian/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV-5+
+http://50.7.233.114:8278/cctv5plus/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV1
+http://50.7.233.114:8278/cctv1/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV10
+http://50.7.233.114:8278/cctv10hd/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV11
+http://50.7.233.114:8278/cctv11/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV12
+http://50.7.233.114:8278/cctv12/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV13
+http://50.7.233.114:8278/cctv13/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV14
+http://50.7.233.114:8278/cctv14/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV15
+http://50.7.233.114:8278/cctv15/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV2
+http://50.7.233.114:8278/cctv2/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV3
+http://50.7.233.114:8278/cctv3/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV4
+http://50.7.233.114:8278/Cctv4/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV4
+http://50.7.233.114:8278/cctv4/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV5
+http://50.7.233.114:8278/cctv5/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV6
+http://50.7.233.114:8278/cctv6/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV7
+http://50.7.233.114:8278/cctv7/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV8
+http://50.7.233.114:8278/cctv8hd/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CCTV9
+http://50.7.233.114:8278/cctv9hd/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",CGTN
+http://50.7.233.114:8278/CGTN/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",8TV
+http://cdn3.indevs.in/stream/live/8tv/
+#EXTINF:-1 group-title="TVATA活源",AEC
+http://cdn3.indevs.in/stream/live/AEC/
+#EXTINF:-1 group-title="TVATA活源",Astro AOD
+http://cdn3.indevs.in/stream/live/AOD/
+#EXTINF:-1 group-title="TVATA活源",Aec
+http://cdn3.indevs.in/stream/live/Aec/
+#EXTINF:-1 group-title="TVATA活源",TV Alhijrah
+http://50.7.233.114:8278/Alhijrah/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Al Jazeera
+http://50.7.233.114:8278/Aljazeera/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Animal Planet
+http://50.7.233.114:8278/AnimalPlanet/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Animax
+http://50.7.233.114:8278/Animax/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",ANTV
+http://50.7.233.114:8278/Antv/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Astro AOD
+http://cdn3.indevs.in/stream/live/Aod/
+#EXTINF:-1 group-title="TVATA活源",AXN
+http://50.7.233.114:8278/Axn/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",BBC Earth
+http://50.7.233.114:8278/Bbcearth/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",BBC News
+http://50.7.233.114:8278/Bbcnews/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Bloomberg
+http://50.7.233.114:8278/Bloomberg/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CGTN
+http://50.7.233.114:8278/CGTN/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CBeebies
+http://50.7.233.114:8278/Cbeebies/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV4
+http://50.7.233.114:8278/Cctv4/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",天映頻道
+http://50.7.233.114:8278/Celestial/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Channel 5 HD
+http://50.7.233.114:8278/Channel5HD/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Channel 8 HD
+http://50.7.233.114:8278/Channel8HD/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Channel U
+http://50.7.233.114:8278/ChannelU/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",犯罪偵查
+http://50.7.233.114:8278/Ci/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CinemaWorld
+http://50.7.233.114:8278/Cinemaworld/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CINEMAX
+http://50.7.233.114:8278/Cinemax/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CNBC
+http://50.7.233.114:8278/Cnbc/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CNN
+http://50.7.233.114:8278/Cnn/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Discovery Asia
+http://50.7.233.114:8278/Discoveryasia/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Discovery HD
+http://50.7.233.114:8278/Discoveryhd/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",DreamWorks
+http://50.7.233.114:8278/Dreamworks/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",DW
+http://50.7.233.114:8278/Dw/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Eurosport
+http://50.7.233.114:8278/Eurosport/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Food Network
+http://50.7.233.114:8278/Foodnetwork/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",France 24
+http://50.7.233.114:8278/France24/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",GTV嘉萊台
+http://50.7.233.114:8278/Gtv/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HGTV
+http://50.7.233.114:8278/HGTV/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HBO
+http://50.7.233.114:8278/Hbo/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Hbofamily
+http://50.7.233.114:8278/Hbofamily/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HBO Hits HD
+http://50.7.233.114:8278/Hbohitshd/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HBO Signature
+http://50.7.233.114:8278/Hbosignature/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",History
+http://50.7.233.114:8278/History/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HITS
+http://50.7.233.114:8278/Hits/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HITS Movies
+http://50.7.233.114:8278/Hitsmovie/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",IQIYI
+http://cdn3.indevs.in/stream/live/IQIYI/
+#EXTINF:-1 group-title="TVATA活源",iQIYI
+http://cdn3.indevs.in/stream/live/Iqiyi/
+#EXTINF:-1 group-title="TVATA活源",KBS
+http://50.7.233.114:8278/KBS/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",KBS1
+http://50.7.233.114:8278/KBS1/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",KBS2
+http://50.7.233.114:8278/KBS2/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",K+
+http://50.7.233.114:8278/Kplus/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",BBC Lifestyle
+http://50.7.233.114:8278/Lifestyle/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",MBC
+http://50.7.233.114:8278/MBC/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Channel 5 (Mewatch)
+http://50.7.233.114:8278/Mewatch_ch5/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Channel 8 (Mewatch)
+http://50.7.233.114:8278/Mewatch_ch8/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",MNC TV
+http://50.7.233.114:8278/Mnctv/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Nat Geo
+http://50.7.233.114:8278/Natgeo/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Nat Geo Wild
+http://50.7.233.114:8278/Natgeowild/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",NBA
+http://50.7.233.114:8278/Nba/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Nickelodeon
+http://50.7.233.114:8278/Nickelodeon/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Nick Jr
+http://50.7.233.114:8278/Nickjr/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Rock Actions
+http://50.7.233.114:8278/Rockaction/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Showcase
+http://50.7.233.114:8278/Showcase/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Sky News
+http://50.7.233.114:8278/Skynews/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",SPOTV
+http://50.7.233.114:8278/Spotv1/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",SPOTV2
+http://50.7.233.114:8278/Spotv2/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",SUN Music HD
+http://50.7.233.114:8278/Sunmusic/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Suria
+http://50.7.233.114:8278/Suria/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",tvN
+http://50.7.233.114:8278/TVN/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Thrill
+http://50.7.233.114:8278/Thrill/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",TLC
+http://50.7.233.114:8278/Tlc/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Trans TV
+http://50.7.233.114:8278/Transtv/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",TVB娛樂新聞
+http://50.7.233.114:8278/Tvbentertainment/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",TVB Jade
+http://50.7.233.114:8278/Tvbjade/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",TV One
+http://50.7.233.114:8278/Tvone/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Vasantham
+http://50.7.233.114:8278/Vasantham/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Warner TV
+http://50.7.233.114:8278/WarnerTV/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",WION
+http://50.7.233.114:8278/Wion/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",AEC
+http://cdn3.indevs.in/stream/live/aec/
+#EXTINF:-1 group-title="TVATA活源",Astro AOD
+http://cdn3.indevs.in/stream/live/aod/
+#EXTINF:-1 group-title="TVATA活源",北京衛視
+http://50.7.233.114:8278/beijing/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCM
+http://cdn3.indevs.in/stream/live/ccm/
+#EXTINF:-1 group-title="TVATA活源",CCTV1
+http://50.7.233.114:8278/cctv1/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV10 HD
+http://50.7.233.114:8278/cctv10hd/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV11
+http://50.7.233.114:8278/cctv11/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV12
+http://50.7.233.114:8278/cctv12/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV13
+http://50.7.233.114:8278/cctv13/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV14
+http://50.7.233.114:8278/cctv14/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV15
+http://50.7.233.114:8278/cctv15/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV16
+http://50.7.233.114:8278/cctv16/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV17
+http://50.7.233.114:8278/cctv17/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV2
+http://50.7.233.114:8278/cctv2/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV3
+http://50.7.233.114:8278/cctv3/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV4
+http://50.7.233.114:8278/cctv4/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV5
+http://50.7.233.114:8278/cctv5/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV5+
+http://50.7.233.114:8278/cctv5plus/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV6
+http://50.7.233.114:8278/cctv6/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV7
+http://50.7.233.114:8278/cctv7/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV8 HD
+http://50.7.233.114:8278/cctv8hd/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CCTV9 HD
+http://50.7.233.114:8278/cctv9hd/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",CNA
+http://50.7.233.114:8278/cna/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",中天新聞
+http://50.7.233.114:8278/ctinews/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",ESPN
+http://50.7.233.114:8278/espn/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",東森戲劇
+http://50.7.233.114:8278/ettvdrama/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",東森電影
+http://50.7.233.114:8278/ettvmovie/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",東森新聞
+http://50.7.233.114:8278/ettvnews/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",東森洋片台
+http://50.7.233.114:8278/ettvwestern/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",福建海峽衛視
+http://50.7.233.114:8278/fujian/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",廣西國際
+http://50.7.233.114:8278/guangxi/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HBO Family
+http://50.7.233.114:8278/hbofamily/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",華裔中文台
+http://cdn3.indevs.in/stream/live/hxt/
+#EXTINF:-1 group-title="TVATA活源",iQIYI
+http://cdn3.indevs.in/stream/live/iQIYI/
+#EXTINF:-1 group-title="TVATA活源",iQIYI
+http://cdn3.indevs.in/stream/live/iqiyi/
+#EXTINF:-1 group-title="TVATA活源",翡翠台
+http://cdn3.indevs.in/stream/live/jade/
+#EXTINF:-1 group-title="TVATA活源",龍華電影
+http://8.fast.hidns.vip/163189/lhdy
+#EXTINF:-1 group-title="TVATA活源",龍華經典
+http://8.fast.hidns.vip/163189/lhjd
+#EXTINF:-1 group-title="TVATA活源",龍華偶像
+http://8.fast.hidns.vip/163189/lhox
+#EXTINF:-1 group-title="TVATA活源",龍華日韓
+http://8.fast.hidns.vip/163189/lhrh
+#EXTINF:-1 group-title="TVATA活源",龍華戲劇
+http://8.fast.hidns.vip/163189/lhxj
+#EXTINF:-1 group-title="TVATA活源",Love Nature
+http://50.7.233.114:8278/lovenature/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",公視3台
+http://50.7.233.114:8278/pts3/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",SBS
+http://50.7.233.114:8278/sbs/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",深圳國際
+http://50.7.233.114:8278/shenzhen/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",TVB Drama
+http://cdn3.indevs.in/stream/live/tvbc/
+#EXTINF:-1 group-title="TVATA活源",TVBS
+http://50.7.233.114:8278/tvbs/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",TVB星河
+http://cdn3.indevs.in/stream/live/tvbxh/
+#EXTINF:-1 group-title="TVATA活源",TypeD
+http://cdn3.indevs.in/stream/live/typd/
+#EXTINF:-1 group-title="TVATA活源",緯來日本
+http://50.7.233.114:8278/videolandjapan/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",緯來電影
+http://50.7.233.114:8278/videolandmovie/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",Warner Bros
+http://50.7.233.114:8278/warnerbros/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",廣東珠江
+http://50.7.233.114:8278/zhujiang/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2003 [38节点]
+http://38.64.72.148:80/hls/modn/list/2003/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2005 [38节点]
+http://38.64.72.148:80/hls/modn/list/2005/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2008 [38节点]
+http://38.64.72.148:80/hls/modn/list/2008/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2012 [38节点]
+http://38.64.72.148:80/hls/modn/list/2012/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2013 [38节点]
+http://38.64.72.148:80/hls/modn/list/2013/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2014 [38节点]
+http://38.64.72.148:80/hls/modn/list/2014/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2015 [38节点]
+http://38.64.72.148:80/hls/modn/list/2015/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2016 [38节点]
+http://38.64.72.148:80/hls/modn/list/2016/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2017 [38节点]
+http://38.64.72.148:80/hls/modn/list/2017/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2023 [38节点]
+http://38.64.72.148:80/hls/modn/list/2023/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK2026 [38节点]
+http://38.64.72.148:80/hls/modn/list/2026/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK4005 [38节点]
+http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK4010 [38节点]
+http://38.64.72.148:80/hls/modn/list/4010/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK4012 [38节点]
+http://38.64.72.148:80/hls/modn/list/4012/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK4013 [38节点]
+http://38.64.72.148:80/hls/modn/list/4013/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK4025 [38节点]
+http://38.64.72.148:80/hls/modn/list/4025/playlist.m3u8
+#EXTINF:-1 group-title="TVATA活源",HK4027 [38节点]
+http://38.64.72.148:80/hls/modn/list/4027/playlist.m3u8
