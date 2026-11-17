@@ -9,7 +9,7 @@
 import json, subprocess, time, sys, os, urllib.request
 
 # 星火 API token (来自 App 逆向, 长期有效, 每天拉取不限次)
-XHZB_TOKEN = os.environ.get("XHZB_TOKEN") or "88c1fdc1567923276e9b31998424babdd5ae0fdaa3b9b640aaf0b4bf18b8bbba")
+XHZB_TOKEN = os.environ.get("XHZB_TOKEN") or "88c1fdc1567923276e9b31998424babdd5ae0fdaa3b9b640aaf0b4bf18b8bbba"
 API = "https://www.xhzb.tw/index.php/api/tvbus_api/open"
 
 # map: 145 台 cid -> title (从 VM xhzb_intl_map.json 导出)
