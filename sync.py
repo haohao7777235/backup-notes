@@ -245,6 +245,11 @@ def main():
         print("too few, abort commit", flush=True)
         sys.exit(1)
 
+    # 4. 写上次成功刷新时间戳 (self-heal: 下个 run 判断是否需要提前刷)
+    import datetime
+    with open("last_sync.txt", "w", encoding="utf-8") as f:
+        f.write(datetime.datetime.now(datetime.timezone.utc).isoformat() + "\n")
+
 
 if __name__ == "__main__":
     main()
