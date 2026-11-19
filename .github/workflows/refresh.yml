@@ -24,12 +24,13 @@ jobs:
       - name: Refresh if stale
         env:
           API_TOKEN: ${{ secrets.API_TOKEN }}
+          FORCE: ${{ github.event.inputs.force || inputs.force || '' }}
         run: |
           python3 - <<'PYEOF'
           import os, datetime, subprocess, sys
 
-          stale = True
-          if os.path.exists("last_sync.txt"):
+          stale = os.environ.get("FORCE", "") == "1"
+          if os.path.exists("last_sync.txt") and not stale:
               try:
                   last = datetime.datetime.fromisoformat(open("last_sync.txt").read().strip())
                   age = datetime.datetime.now(datetime.timezone.utc) - last
