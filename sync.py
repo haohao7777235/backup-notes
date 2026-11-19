@@ -224,7 +224,17 @@ def main():
         if u:
             ok.append((e["cid"], e["title"], u))
         elif e["title"] in old_live:
-            ok.append((e["cid"], e["title"], old_live[e["title"]]))  # 保留旧 URL
+            # 保留旧 URL 前先验证是否还活, 死链不保留
+            try:
+                req2 = urllib.request.Request(old_live[e["title"]], headers={"User-Agent": UA})
+                r2 = urllib.request.urlopen(req2, timeout=6)
+                r2.read(64)
+                if r2.status == 200:
+                    ok.append((e["cid"], e["title"], old_live[e["title"]]))  # 旧 URL 还活, 保留
+                else:
+                    fail.append(e["title"])
+            except Exception:
+                fail.append(e["title"])
         else:
             fail.append(e["title"])
         if (i + 1) % 30 == 0:
