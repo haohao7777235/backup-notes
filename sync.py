@@ -251,6 +251,8 @@ def main():
     open("xhzb_intl.m3u", "w", encoding="utf-8").write(content)
     total = content.count("#EXTINF")
     print(f"done: Live={len(ok)} keep={len(keep)//2} total={total}", flush=True)
+    if fail:
+        print(f"FAILED: {fail}", flush=True)
     if len(ok) < 60:
         print("too few, abort commit", flush=True)
         sys.exit(1)
