@@ -191,14 +191,6 @@ def fetch(cid):
     return None
 
 
-# 死链补救: Live 台 API失败/旧URL死链时用直连线路顶上
-FALLBACK = {
-    "HITS電影": "http://50.7.233.114:8278/Hitsmovie/playlist.m3u8",
-    "HITS Movies": "http://50.7.233.114:8278/Hitsmovie/playlist.m3u8",
-    "CinemaWorld頻道": "http://50.7.233.114:8278/Cinemaworld/playlist.m3u8",
-    "CinemaWorld": "http://50.7.233.114:8278/Cinemaworld/playlist.m3u8",
-}
-
 def main():
     # 1. 读当前文件, 保留非 Live 组 + 记录 Live 旧 URL (失败时保留)
     keep = []
@@ -239,17 +231,10 @@ def main():
                 r2.read(64)
                 if r2.status == 200:
                     ok.append((e["cid"], e["title"], old_live[e["title"]]))  # 旧 URL 还活, 保留
-                elif e["title"] in FALLBACK:
-                    ok.append((e["cid"], e["title"], FALLBACK[e["title"]]))  # 死链, 用直连备用
                 else:
                     fail.append(e["title"])
             except Exception:
-                if e["title"] in FALLBACK:
-                    ok.append((e["cid"], e["title"], FALLBACK[e["title"]]))
-                else:
-                    fail.append(e["title"])
-        elif e["title"] in FALLBACK:
-            ok.append((e["cid"], e["title"], FALLBACK[e["title"]]))  # API失败, 用直连备用
+                fail.append(e["title"])
         else:
             fail.append(e["title"])
         if (i + 1) % 30 == 0:
