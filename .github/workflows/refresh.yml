@@ -33,7 +33,7 @@ jobs:
               try:
                   last = datetime.datetime.fromisoformat(open("last_sync.txt").read().strip())
                   age = datetime.datetime.now(datetime.timezone.utc) - last
-                  stale = age.total_seconds() > 1800   # 超过30分钟算旧, 重新拉
+                  stale = age.total_seconds() > 1500   # 超过25分钟算旧, 重新拉
                   print(f"last sync {age.total_seconds():.0f}s ago -> {'stale, refresh' if stale else 'fresh, skip'}")
               except Exception:
                   stale = True
