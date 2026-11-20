@@ -21,31 +21,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Refresh if stale
+      - name: Refresh
         env:
           API_TOKEN: ${{ secrets.API_TOKEN }}
-          FORCE: ${{ github.event.inputs.force || inputs.force || '' }}
         run: |
-          python3 - <<'PYEOF'
-          import os, datetime, subprocess, sys
-
-          stale = os.environ.get("FORCE", "") == "1"
-          if os.path.exists("last_sync.txt") and not stale:
-              try:
-                  last = datetime.datetime.fromisoformat(open("last_sync.txt").read().strip())
-                  age = datetime.datetime.now(datetime.timezone.utc) - last
-                  stale = age.total_seconds() > 1500   # 超过25分钟算旧, 重新拉
-                  print(f"last sync {age.total_seconds():.0f}s ago -> {'stale, refresh' if stale else 'fresh, skip'}")
-              except Exception:
-                  stale = True
-
-          if stale:
-              r = subprocess.run([sys.executable, "sync.py"], capture_output=True, text=True)
-              print(r.stdout)
-              print(r.stderr)
-              if r.returncode != 0:
-                  sys.exit(r.returncode)
-          PYEOF
+          python3 sync.py
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add xhzb_intl.m3u last_sync.txt README.md
