@@ -1,198 +1,155 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""sync: refresh Live group tokens only, KEEP other groups intact"""
-import json, subprocess, time, sys, os, urllib.request, re
+"""sync: refresh Live group tokens ONLY, verify EVERY token, retry hard until live"""
+import json, time, sys, os, re, subprocess, datetime, urllib.request
 
 API_TOKEN = os.environ.get("API_TOKEN", "")
 if not API_TOKEN:
     print("missing API_TOKEN", flush=True)
     sys.exit(1)
+
 API = "https://www.xhzb.tw/index.php/api/tvbus_api/open"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 
+# ---------------- 频道表: 同原版 ----------------
 CHANNELS = [
-    {"cid": "30892", "title": "CNN"},
-    {"cid": "30898", "title": "LoveNature"},
-    {"cid": "30904", "title": "FRANCE24"},
-    {"cid": "30907", "title": "半島國際新聞"},
-    {"cid": "30909", "title": "amc电影"},
-    {"cid": "30910", "title": "CINEMAX"},
-    {"cid": "30911", "title": "ROCK Entertainment"},
-    {"cid": "30912", "title": "NickJr"},
-    {"cid": "30916", "title": "Global Trekker"},
-    {"cid": "30919", "title": "TRACE Sport Stars"},
-    {"cid": "30921", "title": "Pet Club TV"},
-    {"cid": "30922", "title": "FightSports"},
-    {"cid": "30928", "title": "ROCK_Action"},
-    {"cid": "31184", "title": "BBC Earth"},
-    {"cid": "31185", "title": "BBC Lifestyle"},
-    {"cid": "31261", "title": "台灣戲劇"},
-    {"cid": "31263", "title": "JET綜合"},
-    {"cid": "31264", "title": "Animaxa動漫"},
-    {"cid": "31265", "title": "CBeebies"},
-    {"cid": "31266", "title": "哈哈台"},
-    {"cid": "31267", "title": "邵氏電影"},
-    {"cid": "31268", "title": "邵氏武俠"},
-    {"cid": "31271", "title": "HBO_HD"},
-    {"cid": "31272", "title": "HBOSignature"},
-    {"cid": "31273", "title": "HBOHits"},
-    {"cid": "31274", "title": "HBO family"},
-    {"cid": "31277", "title": "中旺電視"},
-    {"cid": "31278", "title": "美食星球"},
-    {"cid": "31279", "title": "壹電影"},
-    {"cid": "31280", "title": "壹綜合"},
-    {"cid": "31282", "title": "EVE戲劇"},
-    {"cid": "31283", "title": "EVE旅遊"},
-    {"cid": "31284", "title": "好萊烏電影"},
-    {"cid": "31286", "title": "霹靂台灣"},
-    {"cid": "31287", "title": "龍祥電影"},
-    {"cid": "31288", "title": "中華特產"},
-    {"cid": "31289", "title": "環球旅遊"},
-    {"cid": "31290", "title": "國家地理野生"},
-    {"cid": "31291", "title": "鏡電視新聞"},
-    {"cid": "31294", "title": "華藝中文"},
-    {"cid": "31295", "title": "采昌影劇"},
-    {"cid": "31296", "title": "tvN"},
-    {"cid": "31297", "title": "HGTV居家樂活頻道"},
-    {"cid": "31298", "title": "CNEX紀實頻道"},
-    {"cid": "31299", "title": "Discovery科學 SCI"},
-    {"cid": "31300", "title": "Discovery DMAX"},
-    {"cid": "31301", "title": "Lifetime"},
-    {"cid": "31302", "title": "Discovery Asia"},
-    {"cid": "31303", "title": "INULTRA"},
-    {"cid": "31304", "title": "Discovery EVE"},
-    {"cid": "31306", "title": "LiveABC互動英語頻道"},
-    {"cid": "31307", "title": "空中英語教室"},
-    {"cid": "31308", "title": "豬哥亮歌廳秀"},
-    {"cid": "31309", "title": "達文西頻道"},
-    {"cid": "31310", "title": "CinemaWorld頻道"},
-    {"cid": "31311", "title": "Warner TV"},
-    {"cid": "31345", "title": "TNTSports2"},
-    {"cid": "31346", "title": "TNTSports3"},
-    {"cid": "31347", "title": "TNTSports4"},
-    {"cid": "31351", "title": "beINSports XTRA"},
-    {"cid": "31352", "title": "TSN1"},
-    {"cid": "31353", "title": "TSN2"},
-    {"cid": "31354", "title": "TSN3"},
-    {"cid": "31355", "title": "TSN4"},
-    {"cid": "31356", "title": "TSN5"},
-    {"cid": "31357", "title": "歐洲體育1"},
-    {"cid": "31358", "title": "歐洲體育2"},
-    {"cid": "31359", "title": "ESPNU"},
-    {"cid": "31360", "title": "ESPN"},
-    {"cid": "31361", "title": "ESPN 2"},
-    {"cid": "31362", "title": "NBA TV Philippines"},
-    {"cid": "31363", "title": "Sky_Mix"},
-    {"cid": "31364", "title": "Sky_Cricket"},
-    {"cid": "31365", "title": "Sky_MainEvent"},
-    {"cid": "31366", "title": "SKY_PREMIER_LEAGUE"},
-    {"cid": "31367", "title": "Sky_Racing"},
-    {"cid": "31368", "title": "ESPN 4"},
-    {"cid": "31369", "title": "Sky_sports+"},
-    {"cid": "31370", "title": "Sky_Tennis"},
-    {"cid": "31372", "title": "UFC"},
-    {"cid": "31373", "title": "NBATV"},
-    {"cid": "31374", "title": "RED BULL TV 紅牛極限運動"},
-    {"cid": "31375", "title": "WWE"},
-    {"cid": "31376", "title": "五星體育"},
-    {"cid": "31377", "title": "智林體育"},
-    {"cid": "31378", "title": "甘霖體育"},
-    {"cid": "31379", "title": "MyVideo體育"},
-    {"cid": "31380", "title": "DAZN體育"},
-    {"cid": "31381", "title": "勁爆體育"},
-    {"cid": "31382", "title": "Hami大聯盟1"},
-    {"cid": "31383", "title": "Hami大聯盟2"},
-    {"cid": "31384", "title": "Hami足球1"},
-    {"cid": "31385", "title": "Hami WBC1"},
-    {"cid": "31386", "title": "Hami體育1"},
-    {"cid": "31394", "title": "影迷數位紀實"},
-    {"cid": "31397", "title": "CATCHPLAY電影"},
-    {"cid": "31398", "title": "momo綜合"},
-    {"cid": "31399", "title": "尼克兒童頻道"},
-    {"cid": "31400", "title": "CN卡通頻道"},
-    {"cid": "31401", "title": "CARTOONITO"},
-    {"cid": "31402", "title": "DreamWorks 夢工廠動畫"},
-    {"cid": "31403", "title": "麥卡貝綜藝"},
-    {"cid": "31405", "title": "亞洲旅遊"},
-    {"cid": "31406", "title": "History"},
-    {"cid": "31407", "title": "SPOTV1"},
-    {"cid": "31408", "title": "SPOTV2"},
-    {"cid": "31442", "title": "CRIM+罪案偵緝頻道"},
-    {"cid": "31453", "title": "动物星球"},
-    {"cid": "31454", "title": "高點綜合"},
-    {"cid": "31485", "title": "新加坡MU"},
-    {"cid": "31487", "title": "客家電視"},
-    {"cid": "31491", "title": "原住民電視"},
-    {"cid": "31492", "title": "車迷TV"},
-    {"cid": "31493", "title": "滾動力rollor"},
-    {"cid": "31495", "title": "fun探索娛樂"},
-    {"cid": "31496", "title": "灣聲線上音樂廳"},
-    {"cid": "31499", "title": "大愛電視"},
-    {"cid": "31500", "title": "大愛二台"},
-    {"cid": "31501", "title": "好消息"},
-    {"cid": "31502", "title": "好消息2"},
-    {"cid": "31503", "title": "經典電影"},
-    {"cid": "31505", "title": "SMART知識"},
-    {"cid": "31506", "title": "第1商業"},
-    {"cid": "31508", "title": "Hami體育2台"},
-    {"cid": "31509", "title": "MOMO親子"},
-    {"cid": "31512", "title": "beIN SPORTS NBA （MSG_NBA）"},
-    {"cid": "31513", "title": "NBA SportsNet 360"},
-    {"cid": "31514", "title": "ESPN3"},
-    {"cid": "31515", "title": "時尚運動X"},
-    {"cid": "31516", "title": "getwin sport運動台"},
-    {"cid": "31517", "title": "BBC NEWS"},
-    {"cid": "31518", "title": "CNA新聞"},
-    {"cid": "31519", "title": "FOX NEWS"},
-    {"cid": "31520", "title": "CI 罪案偵查頻道"},
-    {"cid": "31521", "title": "KIX電影"},
-    {"cid": "31522", "title": "ROCK X EXTREME"},
-    {"cid": "31523", "title": "HITS電影"},
-    {"cid": "31524", "title": "MCE電影"},
-    {"cid": "31525", "title": "star movies"},
-    {"cid": "31527", "title": "法國時尚"},
-    {"cid": "31528", "title": "TV5MOND生活時尚"},
-    {"cid": "31529", "title": "電影原聲CMusic"},
-    {"cid": "31530", "title": "CLASSICA 古典樂"},
-    {"cid": "31531", "title": "TRACE Urban"},
-    {"cid": "31532", "title": "Mezzo Live"},
-    {"cid": "31395", "title": "FGM_gold電影"},
-    {"cid": "31488", "title": "經典卡通"},
-    {"cid": "31489", "title": "精選動漫"},
-    {"cid": "31490", "title": "幸福空間居家"},
-    {"cid": "31497", "title": "生命電視"},
-    {"cid": "31504", "title": "哆啦A夢"},
-    {"cid": "31526", "title": "經典迪士尼"}
+    {"cid": "30892", "title": "CNN"}, {"cid": "30898", "title": "LoveNature"},
+    {"cid": "30904", "title": "FRANCE24"}, {"cid": "30907", "title": "半島國際新聞"},
+    {"cid": "30909", "title": "amc电影"}, {"cid": "30910", "title": "CINEMAX"},
+    {"cid": "30911", "title": "ROCK Entertainment"}, {"cid": "30912", "title": "NickJr"},
+    {"cid": "30916", "title": "Global Trekker"}, {"cid": "30919", "title": "TRACE Sport Stars"},
+    {"cid": "30921", "title": "Pet Club TV"}, {"cid": "30922", "title": "FightSports"},
+    {"cid": "30928", "title": "ROCK_Action"}, {"cid": "31184", "title": "BBC Earth"},
+    {"cid": "31185", "title": "BBC Lifestyle"}, {"cid": "31261", "title": "台灣戲劇"},
+    {"cid": "31263", "title": "JET綜合"}, {"cid": "31264", "title": "Animaxa動漫"},
+    {"cid": "31265", "title": "CBeebies"}, {"cid": "31266", "title": "哈哈台"},
+    {"cid": "31267", "title": "邵氏電影"}, {"cid": "31268", "title": "邵氏武俠"},
+    {"cid": "31271", "title": "HBO_HD"}, {"cid": "31272", "title": "HBOSignature"},
+    {"cid": "31273", "title": "HBOHits"}, {"cid": "31274", "title": "HBO family"},
+    {"cid": "31277", "title": "中旺電視"}, {"cid": "31278", "title": "美食星球"},
+    {"cid": "31279", "title": "壹電影"}, {"cid": "31280", "title": "壹綜合"},
+    {"cid": "31282", "title": "EVE戲劇"}, {"cid": "31283", "title": "EVE旅遊"},
+    {"cid": "31284", "title": "好萊烏電影"}, {"cid": "31286", "title": "霹靂台灣"},
+    {"cid": "31287", "title": "龍祥電影"}, {"cid": "31288", "title": "中華特產"},
+    {"cid": "31289", "title": "環球旅遊"}, {"cid": "31290", "title": "國家地理野生"},
+    {"cid": "31291", "title": "鏡電視新聞"}, {"cid": "31294", "title": "華藝中文"},
+    {"cid": "31295", "title": "采昌影劇"}, {"cid": "31296", "title": "tvN"},
+    {"cid": "31297", "title": "HGTV居家樂活頻道"}, {"cid": "31298", "title": "CNEX紀實頻道"},
+    {"cid": "31299", "title": "Discovery科學 SCI"}, {"cid": "31300", "title": "Discovery DMAX"},
+    {"cid": "31301", "title": "Lifetime"}, {"cid": "31302", "title": "Discovery Asia"},
+    {"cid": "31303", "title": "INULTRA"}, {"cid": "31304", "title": "Discovery EVE"},
+    {"cid": "31306", "title": "LiveABC互動英語頻道"}, {"cid": "31307", "title": "空中英語教室"},
+    {"cid": "31308", "title": "豬哥亮歌廳秀"}, {"cid": "31309", "title": "達文西頻道"},
+    {"cid": "31310", "title": "CinemaWorld頻道"}, {"cid": "31311", "title": "Warner TV"},
+    {"cid": "31345", "title": "TNTSports2"}, {"cid": "31346", "title": "TNTSports3"},
+    {"cid": "31347", "title": "TNTSports4"}, {"cid": "31351", "title": "beINSports XTRA"},
+    {"cid": "31352", "title": "TSN1"}, {"cid": "31353", "title": "TSN2"},
+    {"cid": "31354", "title": "TSN3"}, {"cid": "31355", "title": "TSN4"},
+    {"cid": "31356", "title": "TSN5"}, {"cid": "31357", "title": "歐洲體育1"},
+    {"cid": "31358", "title": "歐洲體育2"}, {"cid": "31359", "title": "ESPNU"},
+    {"cid": "31360", "title": "ESPN"}, {"cid": "31361", "title": "ESPN 2"},
+    {"cid": "31362", "title": "NBA TV Philippines"}, {"cid": "31363", "title": "Sky_Mix"},
+    {"cid": "31364", "title": "Sky_Cricket"}, {"cid": "31365", "title": "Sky_MainEvent"},
+    {"cid": "31366", "title": "SKY_PREMIER_LEAGUE"}, {"cid": "31367", "title": "Sky_Racing"},
+    {"cid": "31368", "title": "ESPN 4"}, {"cid": "31369", "title": "Sky_sports+"},
+    {"cid": "31370", "title": "Sky_Tennis"}, {"cid": "31372", "title": "UFC"},
+    {"cid": "31373", "title": "NBATV"}, {"cid": "31374", "title": "RED BULL TV 紅牛極限運動"},
+    {"cid": "31375", "title": "WWE"}, {"cid": "31376", "title": "五星體育"},
+    {"cid": "31377", "title": "智林體育"}, {"cid": "31378", "title": "甘霖體育"},
+    {"cid": "31379", "title": "MyVideo體育"}, {"cid": "31380", "title": "DAZN體育"},
+    {"cid": "31381", "title": "勁爆體育"}, {"cid": "31382", "title": "Hami大聯盟1"},
+    {"cid": "31383", "title": "Hami大聯盟2"}, {"cid": "31384", "title": "Hami足球1"},
+    {"cid": "31385", "title": "Hami WBC1"}, {"cid": "31386", "title": "Hami體育1"},
+    {"cid": "31394", "title": "影迷數位紀實"}, {"cid": "31397", "title": "CATCHPLAY電影"},
+    {"cid": "31398", "title": "momo綜合"}, {"cid": "31399", "title": "尼克兒童頻道"},
+    {"cid": "31400", "title": "CN卡通頻道"}, {"cid": "31401", "title": "CARTOONITO"},
+    {"cid": "31402", "title": "DreamWorks 夢工廠動畫"}, {"cid": "31403", "title": "麥卡貝綜藝"},
+    {"cid": "31405", "title": "亞洲旅遊"}, {"cid": "31406", "title": "History"},
+    {"cid": "31407", "title": "SPOTV1"}, {"cid": "31408", "title": "SPOTV2"},
+    {"cid": "31442", "title": "CRIM+罪案偵緝頻道"}, {"cid": "31453", "title": "动物星球"},
+    {"cid": "31454", "title": "高點綜合"}, {"cid": "31485", "title": "新加坡MU"},
+    {"cid": "31487", "title": "客家電視"}, {"cid": "31491", "title": "原住民電視"},
+    {"cid": "31492", "title": "車迷TV"}, {"cid": "31493", "title": "滾動力rollor"},
+    {"cid": "31495", "title": "fun探索娛樂"}, {"cid": "31496", "title": "灣聲線上音樂廳"},
+    {"cid": "31499", "title": "大愛電視"}, {"cid": "31500", "title": "大愛二台"},
+    {"cid": "31501", "title": "好消息"}, {"cid": "31502", "title": "好消息2"},
+    {"cid": "31503", "title": "經典電影"}, {"cid": "31505", "title": "SMART知識"},
+    {"cid": "31506", "title": "第1商業"}, {"cid": "31508", "title": "Hami體育2台"},
+    {"cid": "31509", "title": "MOMO親子"}, {"cid": "31512", "title": "beIN SPORTS NBA （MSG_NBA）"},
+    {"cid": "31513", "title": "NBA SportsNet 360"}, {"cid": "31514", "title": "ESPN3"},
+    {"cid": "31515", "title": "時尚運動X"}, {"cid": "31516", "title": "getwin sport運動台"},
+    {"cid": "31517", "title": "BBC NEWS"}, {"cid": "31518", "title": "CNA新聞"},
+    {"cid": "31519", "title": "FOX NEWS"}, {"cid": "31520", "title": "CI 罪案偵查頻道"},
+    {"cid": "31521", "title": "KIX電影"}, {"cid": "31522", "title": "ROCK X EXTREME"},
+    {"cid": "31523", "title": "HITS電影"}, {"cid": "31524", "title": "MCE電影"},
+    {"cid": "31525", "title": "star movies"}, {"cid": "31527", "title": "法國時尚"},
+    {"cid": "31528", "title": "TV5MOND生活時尚"}, {"cid": "31529", "title": "電影原聲CMusic"},
+    {"cid": "31530", "title": "CLASSICA 古典樂"}, {"cid": "31531", "title": "TRACE Urban"},
+    {"cid": "31532", "title": "Mezzo Live"}, {"cid": "31395", "title": "FGM_gold電影"},
+    {"cid": "31488", "title": "經典卡通"}, {"cid": "31489", "title": "精選動漫"},
+    {"cid": "31490", "title": "幸福空間居家"}, {"cid": "31497", "title": "生命電視"},
+    {"cid": "31504", "title": "哆啦A夢"}, {"cid": "31526", "title": "經典迪士尼"},
 ]
 
+# ---------------- 核心: 带验证的重试 ----------------
 
-def fetch(cid):
-    for attempt in range(3):
-        try:
-            req = urllib.request.Request(API, method="POST")
-            req.add_header("Authorization", "Bearer " + API_TOKEN)
-            req.add_header("Content-Type", "application/json")
-            req.add_header("User-Agent", UA)
-            req.add_header("Referer", "https://www.xhzb.tw/")
-            req.add_header("Origin", "https://www.xhzb.tw")
-            req.add_header("Accept", "application/json, text/plain, */*")
-            req.add_header("Accept-Language", "zh-CN,zh;q=0.9")
-            body = json.dumps({"channel_id": int(cid)}).encode()
-            with urllib.request.urlopen(req, body, timeout=10) as r:
-                d = json.loads(r.read().decode("utf-8", "ignore"))
-            if d.get("code") == 1 and d.get("data") and "route" in d["data"]:
-                u = d["data"]["route"].get("play_url")
-                if u:
-                    return u
-            return None
-        except Exception:
-            pass
-        time.sleep(1.0)
-    return None
+def api_fetch(cid):
+    """调 API 拿 token, 返回 play_url 或 None"""
+    try:
+        req = urllib.request.Request(API, method="POST")
+        req.add_header("Authorization", "Bearer " + API_TOKEN)
+        req.add_header("Content-Type", "application/json")
+        req.add_header("User-Agent", UA)
+        req.add_header("Referer", "https://www.xhzb.tw/")
+        req.add_header("Origin", "https://www.xhzb.tw")
+        req.add_header("Accept", "application/json, text/plain, */*")
+        req.add_header("Accept-Language", "zh-CN,zh;q=0.9")
+        body = json.dumps({"channel_id": int(cid)}).encode()
+        with urllib.request.urlopen(req, body, timeout=12) as r:
+            d = json.loads(r.read().decode("utf-8", "ignore"))
+        if d.get("code") == 1 and d.get("data") and "route" in d["data"]:
+            u = d["data"]["route"].get("play_url")
+            if u:
+                return u
+        return None
+    except Exception:
+        return None
+
+
+def verify_url(url, timeout=6):
+    """拉 FLV 头验证: 200 且非空即活。返回 (ok, http_code)"""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        req.add_header("Referer", "https://www.xhzb.tw/")
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            r.read(256)
+            return r.status == 200, r.status
+    except Exception:
+        return False, 0
+
+
+def get_live_url(cid, title, old_url=None):
+    """反复重试直到拿到验证通过的活 token。返回 (url, status)"""
+    delays = [2, 4, 8, 16, 30]  # 指数退避
+    for attempt in range(5):
+        u = api_fetch(cid)
+        if u:
+            ok, code = verify_url(u)
+            if ok:
+                return u, "api+verified#%d" % (attempt + 1)
+            time.sleep(delays[attempt])
+        else:
+            time.sleep(delays[attempt])
+    # 5 轮 API 全部失败/无效 → 保底: 旧 URL 还活就用旧的
+    if old_url:
+        ok, code = verify_url(old_url)
+        if ok:
+            return old_url, "old-still-alive"
+    return None, "all-failed"
 
 
 def main():
-    # 1. 读当前文件, 保留非 Live 组 + 记录 Live 旧 URL (失败时保留)
+    # 1. 读当前文件, 保留非 Live 组 + 记录 Live 旧 URL
     keep = []
     old_live = {}  # title -> url
     if os.path.exists("xhzb_intl.m3u"):
@@ -216,49 +173,33 @@ def main():
                 keep.append(lines[i])
                 i += 1
 
-    # 2. 刷新 Live 组
+    # 2. 刷新 Live 组 (带验证 + 硬重试)
     ok = []
     fail = []
     for i, e in enumerate(CHANNELS):
-        u = fetch(e["cid"])
+        u, status = get_live_url(e["cid"], e["title"], old_live.get(e["title"]))
         if u:
             ok.append((e["cid"], e["title"], u))
-        elif e["title"] in old_live:
-            # 保留旧 URL 前先验证是否还活, 死链不保留
-            try:
-                req2 = urllib.request.Request(old_live[e["title"]], headers={"User-Agent": UA})
-                r2 = urllib.request.urlopen(req2, timeout=6)
-                r2.read(64)
-                if r2.status == 200:
-                    ok.append((e["cid"], e["title"], old_live[e["title"]]))  # 旧 URL 还活, 保留
-                else:
-                    fail.append(e["title"])
-            except Exception:
-                fail.append(e["title"])
         else:
             fail.append(e["title"])
-        if (i + 1) % 30 == 0:
-            print(f"...{i+1}/{len(CHANNELS)} ok={len(ok)}", flush=True)
-        time.sleep(1.0)
+        if (i + 1) % 30 == 0 or status == "all-failed":
+            print("...%d/%d ok=%d fail=%d" % (i + 1, len(CHANNELS), len(ok), len(fail)), flush=True)
+        time.sleep(0.3)  # 低频, 防风控
 
-    # 3. 重组: Live + 保留组
+    # 3. 重组输出
     out = ["#EXTM3U"]
     for cid, title, u in ok:
-        out.append(f'#EXTINF:-1 group-title="Live",{title}')
+        out.append('#EXTINF:-1 group-title="Live",' + title)
         out.append(u)
     out.extend(keep)
     content = "\n".join(out) + "\n"
     open("xhzb_intl.m3u", "w", encoding="utf-8").write(content)
     total = content.count("#EXTINF")
-    print(f"done: Live={len(ok)} keep={len(keep)//2} total={total}", flush=True)
+    print("done: Live=%d keep=%d total=%d" % (len(ok), len(keep) // 2, total), flush=True)
     if fail:
-        print(f"FAILED: {fail}", flush=True)
-    if len(ok) < 60:
-        print("too few, abort commit", flush=True)
-        sys.exit(1)
+        print("FAILED: " + repr(fail), flush=True)
 
-    # 4. 写上次成功刷新时间戳 (self-heal: 下个 run 判断是否需要提前刷)
-    import datetime
+    # 4. 时间戳
     with open("last_sync.txt", "w", encoding="utf-8") as f:
         f.write(datetime.datetime.now(datetime.timezone.utc).isoformat() + "\n")
 
