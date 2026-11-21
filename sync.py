@@ -34,7 +34,7 @@ CHANNELS = [
     {"cid": "31304", "title": "Discovery EVE"},
     {"cid": "31310", "title": "CinemaWorld頻道"},
     {"cid": "31311", "title": "Warner TV"},
-    {"cid": "31395", "title": "FGM_gold電影"},
+    {"cid": "31013", "title": "FGM_gold電影"},
     {"cid": "31397", "title": "CATCHPLAY電影"},
     {"cid": "31406", "title": "History"},
     {"cid": "31453", "title": "动物星球"},
