@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 group-title="Live",CINEMAX
+http://pull-mpeg-hs-cny-f5.douyincdn.com/live/gVbjZuUx6UnH2lpgVrMuWA6GwaIWC6.flv
+#EXTINF:-1 group-title="Live",star movies
+http://pull-mpeg-hs-cny-f5.douyincdn.com/live/kDv8z0ZUIicu1N5onizlFJ2q8e9VS4.flv
+#EXTINF:-1 group-title="Live",法國時尚
+http://pull-mpeg-hs-cny-f5.douyincdn.com/live/4G4AXcAUCulBoLXbegFkiZ34CGkyNN.flv
 #EXTINF:-1 group-title="Live",LoveNature
 http://pull.live-plus.jlntv.cn/live/yEYibq2C92fcyHFZi3H2bkSfI6FeH4.flv
 #EXTINF:-1 group-title="Live",amc电影
