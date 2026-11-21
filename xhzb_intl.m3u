@@ -448,7 +448,7 @@ http://50.7.233.114:8278/VisionPrime/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",WION
 http://50.7.233.114:8278/Wion/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",Warner TV
-http://50.7.233.114:8278/warnerbros/playlist.m3u8
+http://50.7.233.114:8278/WarnerTV/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",Zee Action
 http://50.7.233.114:8278/Zeeaction/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",Zee Business
@@ -756,7 +756,7 @@ http://50.7.233.114:8278/Tvone/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",Vasantham
 http://50.7.233.114:8278/Vasantham/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",Warner TV
-http://50.7.233.114:8278/warnerbros/playlist.m3u8
+http://50.7.233.114:8278/WarnerTV/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",WION
 http://50.7.233.114:8278/Wion/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",AEC
@@ -862,7 +862,7 @@ http://50.7.233.114:8278/videolandjapan/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",緯來電影
 http://50.7.233.114:8278/videolandmovie/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",Warner Bros
-http://50.7.233.114:8278/warnerbros/playlist.m3u8
+http://50.7.233.114:8278/WarnerTV/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",廣東珠江
 http://50.7.233.114:8278/zhujiang/playlist.m3u8
 #EXTINF:-1 group-title="TVATA活源",HK2003 [38节点]
