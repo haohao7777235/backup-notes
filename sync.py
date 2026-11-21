@@ -94,12 +94,11 @@ def get_live_url(cid, title, old_url=None):
             time.sleep(delays[attempt])
         else:
             time.sleep(delays[attempt])
-    # 5 轮 API 全部失败/无效 → 保底: 旧 URL 还活就用旧的
+    # 5 轮 API 全部失败/无效 → 保底: 旧 URL 无论如何都保留 (台不能丢!)
+    # (哪怕旧 URL 已死也占位, 下一轮继续试续; 删台 = 列表消失, 不可接受)
     if old_url:
-        ok, code = verify_url(old_url)
-        if ok:
-            return old_url, "old-still-alive"
-    return None, "all-failed"
+        return old_url, "old-kept-even-if-dead"
+    return None, "all-failed-no-old"
 
 
 def main():
