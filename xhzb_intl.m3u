@@ -1,22 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Live",HBO_HD
-http://pull.live-plus.jlntv.cn/live/Mtdg1YdKk8JoFwANwQpnzAXVHF4kgr.flv
-#EXTINF:-1 group-title="Live",HBOSignature
-http://pull.live-plus.jlntv.cn/live/a3qZnGIepcWlQg6c1tuvgX3Z0AxAUD.flv
-#EXTINF:-1 group-title="Live",HBOHits
-http://pull.live-plus.jlntv.cn/live/gkMvXO606v24fYfj1d2eCsyTLd06Q3.flv
-#EXTINF:-1 group-title="Live",HBO family
-http://pull.live-plus.jlntv.cn/live/1fRuViy3vgEeEJkXlHhHolJg5plY3S.flv
-#EXTINF:-1 group-title="Live",好萊烏電影
-http://pull-mpeg-hs-cny-f5.douyincdn.com/live/AuAb2IFPYQLbt0mkeENOVJAmJmusTi.flv
-#EXTINF:-1 group-title="Live",龍祥電影
-http://pull-mpeg-hs-cny-f5.douyincdn.com/live/uCUs7UonYXzstsnMABsvOxliPmQ3Xv.flv
-#EXTINF:-1 group-title="Live",CINEMAX
-http://pull-mpeg-hs-cny-f5.douyincdn.com/live/gVbjZuUx6UnH2lpgVrMuWA6GwaIWC6.flv
-#EXTINF:-1 group-title="Live",star movies
-http://pull-mpeg-hs-cny-f5.douyincdn.com/live/kDv8z0ZUIicu1N5onizlFJ2q8e9VS4.flv
-#EXTINF:-1 group-title="Live",法國時尚
-http://pull-mpeg-hs-cny-f5.douyincdn.com/live/4G4AXcAUCulBoLXbegFkiZ34CGkyNN.flv
 #EXTINF:-1 group-title="Live",LoveNature
 http://pull.live-plus.jlntv.cn/live/yEYibq2C92fcyHFZi3H2bkSfI6FeH4.flv
 #EXTINF:-1 group-title="Live",amc电影
@@ -27,6 +9,18 @@ http://pull.live-plus.jlntv.cn/live/H9PMjnbuV6A9mDtiUQIKinnStWTVme.flv
 http://pull.live-plus.jlntv.cn/live/5GOeChwmpLpZqMR34PIuKiVmguMzeY.flv
 #EXTINF:-1 group-title="Live",Animaxa動漫
 http://pull.live-plus.jlntv.cn/live/HFEbPA14bdQ0mLqsizXznaEahRnr1Y.flv
+#EXTINF:-1 group-title="Live",HBO_HD
+http://pull.live-plus.jlntv.cn/live/eek0oDfqmKQo5rYcY0O5E7t2tuOXTs.flv
+#EXTINF:-1 group-title="Live",HBOSignature
+http://pull.live-plus.jlntv.cn/live/2MmIoGLk9cNOxXAGgDbGaQ1DZdPUSx.flv
+#EXTINF:-1 group-title="Live",HBOHits
+http://pull.live-plus.jlntv.cn/live/wVd1DnjhUEjfAx4Pk0ynBxoMrLkJYM.flv
+#EXTINF:-1 group-title="Live",HBO family
+http://pull.live-plus.jlntv.cn/live/ufY3JfiyhdFm3aEBR2Vcw3nU6yuI5A.flv
+#EXTINF:-1 group-title="Live",好萊烏電影
+http://pull-mpeg-hs-cny-f5.douyincdn.com/live/GrIC7vZfn1HVgk6rn5BFaGtkvooQZP.flv
+#EXTINF:-1 group-title="Live",龍祥電影
+http://pull-mpeg-hs-cny-f5.douyincdn.com/live/55MIW2HjUipPgBgFnVNeIVaZUhKCna.flv
 #EXTINF:-1 group-title="Live",國家地理野生
 http://pull-mpeg-hs-cny-f5.douyincdn.com/live/PYA09uivLLxFOjjZR4cKaOq5c90KHA.flv
 #EXTINF:-1 group-title="Live",采昌影劇
@@ -59,6 +53,7 @@ http://pull.live-plus.jlntv.cn/live/8UgUGJWUoxETevPAc3414cAiuzz19H.flv
 http://pull.live-plus.jlntv.cn/live/SLsi5dSAFR8eZvulpoMBEZ7mlHW9zb.flv
 #EXTINF:-1 group-title="Live",MCE電影
 http://pull.live-plus.jlntv.cn/live/rKIqLPvHkoB24CHFZCdGTDe0lBhLbs.flv
+#EXTM3U
 #EXTM3U
 #EXTM3U
 #EXTM3U
