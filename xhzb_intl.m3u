@@ -1,4 +1,22 @@
 #EXTM3U
+#EXTINF:-1 group-title="Live",HBO_HD
+http://pull.live-plus.jlntv.cn/live/Mtdg1YdKk8JoFwANwQpnzAXVHF4kgr.flv
+#EXTINF:-1 group-title="Live",HBOSignature
+http://pull.live-plus.jlntv.cn/live/a3qZnGIepcWlQg6c1tuvgX3Z0AxAUD.flv
+#EXTINF:-1 group-title="Live",HBOHits
+http://pull.live-plus.jlntv.cn/live/gkMvXO606v24fYfj1d2eCsyTLd06Q3.flv
+#EXTINF:-1 group-title="Live",HBO family
+http://pull.live-plus.jlntv.cn/live/1fRuViy3vgEeEJkXlHhHolJg5plY3S.flv
+#EXTINF:-1 group-title="Live",好萊烏電影
+http://pull-mpeg-hs-cny-f5.douyincdn.com/live/AuAb2IFPYQLbt0mkeENOVJAmJmusTi.flv
+#EXTINF:-1 group-title="Live",龍祥電影
+http://pull-mpeg-hs-cny-f5.douyincdn.com/live/uCUs7UonYXzstsnMABsvOxliPmQ3Xv.flv
+#EXTINF:-1 group-title="Live",CINEMAX
+http://pull-mpeg-hs-cny-f5.douyincdn.com/live/gVbjZuUx6UnH2lpgVrMuWA6GwaIWC6.flv
+#EXTINF:-1 group-title="Live",star movies
+http://pull-mpeg-hs-cny-f5.douyincdn.com/live/kDv8z0ZUIicu1N5onizlFJ2q8e9VS4.flv
+#EXTINF:-1 group-title="Live",法國時尚
+http://pull-mpeg-hs-cny-f5.douyincdn.com/live/4G4AXcAUCulBoLXbegFkiZ34CGkyNN.flv
 #EXTINF:-1 group-title="Live",LoveNature
 http://pull.live-plus.jlntv.cn/live/yEYibq2C92fcyHFZi3H2bkSfI6FeH4.flv
 #EXTINF:-1 group-title="Live",amc电影
@@ -66,6 +84,10 @@ http://pull.live-plus.jlntv.cn/live/rKIqLPvHkoB24CHFZCdGTDe0lBhLbs.flv
 #EXTM3U
 #EXTM3U
 #EXTM3U
+#EXTINF:-1 group-title="台港直连",AXN Taiwan
+http://50.7.233.114:8278/axn_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Cinemax Taiwan
+http://50.7.233.114:8278/cinemax_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",HBO Signature Taiwan
 http://50.7.233.114:8278/hbosignature_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",HBO_HD
