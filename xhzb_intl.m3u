@@ -84,6 +84,14 @@ http://pull.live-plus.jlntv.cn/live/rKIqLPvHkoB24CHFZCdGTDe0lBhLbs.flv
 #EXTM3U
 #EXTM3U
 #EXTM3U
+#EXTINF:-1 group-title="台港直连",CATCHPLAY Taiwan
+http://50.7.233.114:8278/catchplay_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",star movies Taiwan
+http://50.7.233.114:8278/starmovies_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",Animal Planet Taiwan
+http://50.7.233.114:8278/animalplanet_twn/playlist.m3u8
+#EXTINF:-1 group-title="台港直连",NatGeo Wild Taiwan
+http://50.7.233.114:8278/natgeowild_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",AXN Taiwan
 http://50.7.233.114:8278/axn_twn/playlist.m3u8
 #EXTINF:-1 group-title="台港直连",Cinemax Taiwan
