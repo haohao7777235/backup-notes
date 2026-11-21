@@ -1,0 +1,33 @@
+name: Fix9
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run fix9
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+        run: |
+          python3 sync_fix9.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add xhzb_intl.m3u last_sync.txt README.md
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "fix9 $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git push origin main
+          fi
